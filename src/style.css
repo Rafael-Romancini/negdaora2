@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+    font-family: 'Nunito','sans-serif' !important;
+}
+.ce-message-bubble{
+  background-color: black !important;
+}
+.ce_message{
+    color: white;
+  }
+html,body,#root{
+    height: 100% !important;
+}
+#root > div {
+    height: 100vh!important;
+}
+.ce-chats-container, .ce-chat-list,.ce-chat-form-container{
+    background-color: black !important;
+    color: white !important;
+}
+#ce-feed-container{
+    background-image: linear-gradient(to bottom left, #192224, #00af66)!important;
+}
+.ce-settings{
+    background-color: black !important;
+}
+::-webkit-scrollbar {
+    width: 8px!important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent!important; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+    border-radius: 100px!important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AAAAAA!important; 
+  }
